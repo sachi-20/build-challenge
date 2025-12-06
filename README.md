@@ -2,6 +2,8 @@
 
 This repository contains completed solutions for two coding challenge assignments demonstrating concurrent programming and functional data analysis.
 
+Prepared by Sachi Kaushik
+
 ## Assignments
 
 ### Assignment 1: Producer-Consumer Pattern
@@ -71,12 +73,12 @@ python src/main.py  # Runs analysis and tests
 
 ## Assignment Requirements Met
 
-✅ Java/Python implementation  
-✅ Thread synchronization and concurrent programming  
-✅ Functional programming with streams  
-✅ Data aggregation and lambda expressions  
-✅ Comprehensive unit tests  
-✅ Documentation and setup instructions  
-✅ Console output and results
+- Python implementation
+- Thread synchronization and concurrent programming
+- Functional programming with streams
+- Data aggregation and lambda expressions
+- Comprehensive unit tests
+- Documentation and setup instructions
+- Console output and results
 
 Each assignment has its own detailed README with specific implementation details, usage examples, and design decisions.
