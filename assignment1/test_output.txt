@@ -1,0 +1,35 @@
+test_capacity_not_exceeded (test_producer_consumer.TestBoundedBuffer.test_capacity_not_exceeded)
+Buffer size never exceeds capacity under concurrent access. ... ok
+test_consumer_blocks_on_empty (test_producer_consumer.TestBoundedBuffer.test_consumer_blocks_on_empty)
+Consumer blocks when buffer is empty. ... ok
+test_fifo_order (test_producer_consumer.TestBoundedBuffer.test_fifo_order)
+Buffer maintains FIFO order. ... ok
+test_producer_blocks_on_full (test_producer_consumer.TestBoundedBuffer.test_producer_blocks_on_full)
+Producer blocks when buffer is full. ... ok
+test_put_take_single_item (test_producer_consumer.TestBoundedBuffer.test_put_take_single_item)
+Basic sanity check. ... ok
+test_put_timeout (test_producer_consumer.TestBoundedBuffer.test_put_timeout)
+put() with timeout raises BufferTimeoutError. ... ok
+test_take_timeout (test_producer_consumer.TestBoundedBuffer.test_take_timeout)
+take() with timeout raises BufferTimeoutError. ... ok
+test_multi_producer_multi_consumer (test_producer_consumer.TestConcurrency.test_multi_producer_multi_consumer)
+Multiple producers and consumers maintain data integrity. ... ok
+test_stress_small_buffer (test_producer_consumer.TestConcurrency.test_stress_small_buffer)
+Stress test with many items and small buffer. ... ok
+test_concurrent_adds (test_producer_consumer.TestDestinationContainer.test_concurrent_adds)
+Multiple threads can safely add items. ... ok
+test_json_data_transfer (test_producer_consumer.TestProducerConsumer.test_json_data_transfer)
+JSON-like data transfers correctly. ... ok
+test_large_dataset (test_producer_consumer.TestProducerConsumer.test_large_dataset)
+Handles large dataset correctly. ... ok
+test_single_producer_consumer (test_producer_consumer.TestProducerConsumer.test_single_producer_consumer)
+All items transferred correctly. ... ok
+test_sequential_access (test_producer_consumer.TestSourceContainer.test_sequential_access)
+Items returned in order. ... ok
+test_thread_safe_access (test_producer_consumer.TestSourceContainer.test_thread_safe_access)
+Multiple threads can safely access source. ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.956s
+
+OK
