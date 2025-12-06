@@ -1,0 +1,53 @@
+test_parse_date_formats (tests.test_analytics.TestCSVLoader.test_parse_date_formats)
+Tests valid date formats supported by CSVLoader. ... ok
+test_parse_date_invalid (tests.test_analytics.TestCSVLoader.test_parse_date_invalid)
+Ensures invalid date formats raise ValueError. ... ok
+test_category_performance_matrix (tests.test_analytics.TestSalesAnalytics.test_category_performance_matrix)
+Tests category-based aggregation results. ... ok
+test_city_market_analysis (tests.test_analytics.TestSalesAnalytics.test_city_market_analysis)
+Validates city-level market aggregation. ... ok
+test_count (tests.test_analytics.TestSalesAnalytics.test_count)
+Validates total record count. ... ok
+test_customer_segmentation_analysis (tests.test_analytics.TestSalesAnalytics.test_customer_segmentation_analysis)
+Validates customer segmentation structure. ... ok
+test_discount_optimization_analysis (tests.test_analytics.TestSalesAnalytics.test_discount_optimization_analysis)
+Ensures discount brackets are correctly computed. ... ok
+test_discount_vs_volume_correlation (tests.test_analytics.TestSalesAnalytics.test_discount_vs_volume_correlation)
+Validates discount versus volume relationship. ... ok
+test_filter (tests.test_analytics.TestSalesAnalytics.test_filter)
+Validates record filtering with predicate. ... ok
+test_filter_chain (tests.test_analytics.TestSalesAnalytics.test_filter_chain)
+Validates chaining of multiple filters. ... ok
+test_map (tests.test_analytics.TestSalesAnalytics.test_map)
+Validates mapping operation on records. ... ok
+test_monthly_seasonality_analysis (tests.test_analytics.TestSalesAnalytics.test_monthly_seasonality_analysis)
+Validates monthly transaction aggregation. ... ok
+test_product_subcategory_deep_dive (tests.test_analytics.TestSalesAnalytics.test_product_subcategory_deep_dive)
+Checks subcategory deep dive output. ... ok
+test_profitability_drivers_analysis (tests.test_analytics.TestSalesAnalytics.test_profitability_drivers_analysis)
+Checks high and low margin segmentation logic. ... ok
+test_regional_efficiency_analysis (tests.test_analytics.TestSalesAnalytics.test_regional_efficiency_analysis)
+Validates regional aggregation and totals. ... ok
+test_summary_statistics (tests.test_analytics.TestSalesAnalytics.test_summary_statistics)
+Validates summary statistics aggregation. ... ok
+test_temporal_trend_analysis (tests.test_analytics.TestSalesAnalytics.test_temporal_trend_analysis)
+Validates yearly sales aggregation. ... ok
+test_top_subcategories (tests.test_analytics.TestSalesAnalytics.test_top_subcategories)
+Validates top N subcategory extraction. ... ok
+test_discount_category_high (tests.test_analytics.TestSalesRecord.test_discount_category_high)
+Verifies High discount classification. ... ok
+test_discount_category_low (tests.test_analytics.TestSalesRecord.test_discount_category_low)
+Verifies Low discount classification. ... ok
+test_discount_category_medium (tests.test_analytics.TestSalesRecord.test_discount_category_medium)
+Verifies Medium discount classification. ... ok
+test_month_property (tests.test_analytics.TestSalesRecord.test_month_property)
+Checks correct extraction of month from order date. ... ok
+test_profit_margin (tests.test_analytics.TestSalesRecord.test_profit_margin)
+Validates correct profit margin calculation. ... ok
+test_year_property (tests.test_analytics.TestSalesRecord.test_year_property)
+Checks correct extraction of year from order date. ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.002s
+
+OK

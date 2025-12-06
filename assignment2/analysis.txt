@@ -1,0 +1,163 @@
+Loading sales data...
+Successfully loaded 9994 transactions
+
+EXECUTIVE SUMMARY: STATISTICAL OVERVIEW
+
+Sales Metrics:
+  Total Revenue: $14,956,982.00
+  Average Transaction: $1,496.60
+  Median Transaction: $1,498.00
+  Std Deviation: $577.56
+  Range: $500.00 - $2,500.00
+
+Profitability Metrics:
+  Total Profit: $3,747,121.20
+  Average Profit: $374.94
+  Median Profit: $320.78
+  Std Deviation: $239.93
+
+Discount Metrics:
+  Average Discount: 22.68%
+  Median Discount: 23.00%
+  Range: 10.00% - 35.00%
+
+Profit Margin:
+  Average: 25.02%
+  Median: 25.00%
+
+CATEGORY PERFORMANCE MATRIX
+
+Category               Total Sales  Total Profit   Margin  Transactions
+Eggs, Meat & Fish    $2,267,401.00   $567,357.22   25.02%          1490
+Snacks               $2,237,546.00   $568,178.85   25.39%          1514
+Food Grains          $2,115,272.00   $529,162.64   25.02%          1398
+Bakery               $2,112,281.00   $528,521.06   25.02%          1413
+Fruits & Veggies     $2,100,727.00   $530,400.38   25.25%          1418
+Beverages            $2,085,313.00   $525,605.76   25.21%          1400
+Oil & Masala         $2,038,442.00   $497,895.29   24.43%          1361
+
+REGIONAL EFFICIENCY ANALYSIS
+
+Region                  Sales        Profit   Margin   Cities  Customers
+North               $1,254.00       $401.28   32.00%        1          1
+South           $2,440,461.00   $623,562.89   25.55%       24         50
+East            $4,248,368.00 $1,074,345.58   25.29%       24         50
+West            $4,798,743.00 $1,192,004.61   24.84%       24         50
+Central         $3,468,156.00   $856,806.84   24.70%       24         50
+
+DISCOUNT OPTIMIZATION ANALYSIS
+
+Bracket       Transactions   Total Sales  Total Profit   Margin
+0-15%                 1836 $2,751,290.00   $688,322.86   25.02%
+15-20%                1900 $2,849,280.00   $709,783.38   24.91%
+20-25%                1920 $2,881,920.00   $715,269.63   24.82%
+25-30%                2004 $2,986,763.00   $767,861.64   25.71%
+30%+                  2334 $3,487,729.00   $865,883.69   24.83%
+
+CUSTOMER SEGMENTATION ANALYSIS
+
+Segment          Customers   Total Sales  Total Profit  Avg per Customer
+High Value              10 $3,229,007.00   $809,370.85       $322,900.70
+Medium Value            15 $4,582,205.00 $1,154,167.57       $305,480.33
+Low Value               25 $7,145,770.00 $1,783,582.78       $285,830.80
+
+Top 10 Customers:
+ 1. Krithika                   $334,361.00
+ 2. Amrish                     $333,351.00
+ 3. Verma                      $331,665.00
+ 4. Arutra                     $325,720.00
+ 5. Vidya                      $321,798.00
+ 6. Vinne                      $319,565.00
+ 7. Shah                       $318,588.00
+ 8. Suresh                     $315,973.00
+ 9. Adavan                     $315,341.00
+10. Surya                      $312,645.00
+
+TOP 10 CITY MARKET ANALYSIS
+
+Rank   City               Region                  Sales        Profit   Margin
+1      Kanyakumari        West              $706,764.00   $172,217.74   24.37%
+2      Vellore            North             $676,550.00   $174,073.01   25.73%
+3      Bodi               West              $667,177.00   $173,655.13   26.03%
+4      Tirunelveli        West              $659,812.00   $165,169.01   25.03%
+5      Perambalur         West              $659,738.00   $171,132.19   25.94%
+6      Salem              Central           $657,093.00   $160,899.30   24.49%
+7      Pudukottai         East              $653,179.00   $164,072.63   25.12%
+8      Tenkasi            West              $643,652.00   $156,230.72   24.27%
+9      Karur              West              $642,273.00   $169,305.94   26.36%
+10     Krishnagiri        South             $637,273.00   $160,477.48   25.18%
+
+DISCOUNT VS VOLUME CORRELATION BY CATEGORY
+
+Category                High Disc     Low Disc     Lift %
+Bakery                        594          254    133.86%
+Beverages                     639          248    157.66%
+Eggs, Meat & Fish             638          234    172.65%
+Food Grains                   612          256    139.06%
+Fruits & Veggies              644          258    149.61%
+Oil & Masala                  578          268    115.67%
+Snacks                        633          318     99.06%
+
+PRODUCT SUBCATEGORY DEEP DIVE
+
+
+Bakery:
+Subcategory                    Sales          Profit     Margin
+Breads & Buns            $742,586.00     $190,764.98     25.69%
+Cakes                    $685,612.00     $168,398.46     24.56%
+Biscuits                 $684,083.00     $169,357.62     24.76%
+
+Beverages:
+Subcategory                    Sales          Profit     Margin
+Health Drinks          $1,051,439.00     $267,469.79     25.44%
+Soft Drinks            $1,033,874.00     $258,135.97     24.97%
+
+Eggs, Meat & Fish:
+Subcategory                    Sales          Profit     Margin
+Mutton                   $611,200.00     $151,389.40     24.77%
+Eggs                     $575,156.00     $144,669.92     25.15%
+Fish                     $560,548.00     $147,248.01     26.27%
+
+TEMPORAL TREND ANALYSIS
+
+Yearly Performance:
+Year             Sales          Profit    Transactions       Avg Order
+2015     $2,975,599.00     $752,529.11            1993       $1,493.03
+2016     $3,131,959.00     $797,192.99            2102       $1,489.99
+2017     $3,871,912.00     $953,216.22            2587       $1,496.68
+2018     $4,977,512.00   $1,244,182.88            3312       $1,502.87
+
+Year-over-Year Growth:
+  2015-2016: Sales 5.25%, Profit 5.94%
+  2016-2017: Sales 23.63%, Profit 19.57%
+  2017-2018: Sales 28.55%, Profit 30.52%
+
+TOP 10 PRODUCT SUBCATEGORIES
+
+Rank   Subcategory          Category                Sales
+1      Health Drinks        Beverages       $1,051,439.00
+2      Soft Drinks          Beverages       $1,033,874.00
+3      Cookies              Snacks            $768,213.00
+4      Breads & Buns        Bakery            $742,586.00
+5      Noodles              Snacks            $735,435.00
+6      Chocolates           Snacks            $733,898.00
+7      Masalas              Oil & Masala      $697,480.00
+8      Cakes                Bakery            $685,612.00
+9      Biscuits             Bakery            $684,083.00
+10     Spices               Oil & Masala      $672,876.00
+
+MONTHLY SEASONALITY ANALYSIS
+
+Month            Sales  Transactions     Avg Trans    Index
+Jan        $577,972.00           381     $1,516.99     46.4
+Feb        $456,102.00           300     $1,520.34     36.6
+Mar      $1,053,980.00           696     $1,514.34     84.6
+Apr        $998,453.00           668     $1,494.69     80.1
+May      $1,086,920.00           735     $1,478.80     87.2
+Jun      $1,057,808.00           717     $1,475.32     84.9
+Jul      $1,089,385.00           710     $1,534.35     87.4
+Aug      $1,046,807.00           706     $1,482.73     84.0
+Sep      $2,064,266.00          1383     $1,492.60    165.6
+Oct      $1,243,289.00           819     $1,518.06     99.7
+Nov      $2,193,924.00          1471     $1,491.45    176.0
+Dec      $2,088,076.00          1408     $1,483.01    167.5
